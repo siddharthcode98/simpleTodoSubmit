@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.listStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  padding: 50px;
+}
+@media screen and (max-width: 576px) {
+  .listStyle {
+    padding: 10px;
+  }
+}
+.whiteBackground {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.orangeBackground {
+  background-color: #ffc2a0;
+  padding: 30px;
+  height: 100vh;
+}
+.mainHeading {
+  text-align: center;
+  color: #ff8542;
+}
+.add-task-input {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputElement {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #ff8542;
+}
+.AddBtn {
+  height: 30px;
+  background-color: transparent;
+  border-style: none;
+  border-radius: 10px;
+  border: 2px solid #ff8542;
+  margin-left: 10px;
+  color: #ff8542;
+  font-weight: bold;
+}
+.inputElement::placeholder {
+  color: #ffc2a0;
+}

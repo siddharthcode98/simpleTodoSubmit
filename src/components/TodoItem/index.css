@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.list {
+  display: grid;
+  grid-template-columns: auto 100px 100px;
+  column-gap: 10px;
+  text-align: left;
+}
+@media screen and (max-width: 576px) {
+  .list {
+    grid-template-columns: auto auto auto;
+  }
+}
+.deleteBtn {
+  background-color: transparent;
+  border: 2px solid #ff0b37;
+  height: 30px;
+  border-radius: 5px;
+  color: #ff0b37;
+  cursor: pointer;
+}
+.toggleBtn {
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid #170bff;
+  height: 30px;
+  border-radius: 5px;
+  color: #1904fe;
+  cursor: pointer;
+}
+.task-style {
+  min-width: 100px;
+}
+.list p {
+  margin: 0px;
+}
+.check-style {
+  width: 10px;
+}
+.strikeThrough {
+  text-decoration: line-through;
+}
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+}
+.edit-text-input {
+  min-width: 100px;
+}
